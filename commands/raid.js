@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
     let Title = `Hackeado Por: ${arg}`
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
     let field = "Quer Ter Esse Bot De Raid?:"
-    let fieldd = "Servidor Do Bot: https://discord.gg/VFNnvkq" // descricão do field
+    let fieldd = "Veja Esse Video: https://youtu.be/3q5WC9EFseI" // descricão do field
    const embed = new discord.RichEmbed()
    .setTitle(Title)
    .setColor("RANDOM")
