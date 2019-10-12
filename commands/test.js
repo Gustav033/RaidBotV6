@@ -10,4 +10,5 @@ exports.run = async (client, message) => {
   .addField("Versão:", "V3")
   .setColor("RANDOM")
   .setFooter("Feito Por Gustavo33")
+  pingm.edit(embed)
 }
