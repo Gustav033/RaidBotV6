@@ -7,7 +7,7 @@ exports.run = async (client, message) => {
   .setTitle("Test!")
   .setDescription("Ping: " + Ping)
   .addField("Bot Funcionando?", "Sim!")
-  .addField("Versão:", "V3")
+  .addField("Versão:", "V4")
   .setColor("RANDOM")
   .setFooter("Feito Por Gustavo33")
   pingm.edit(embed)
