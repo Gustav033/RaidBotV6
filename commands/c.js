@@ -1,5 +1,15 @@
 exports.run = async (client, message) => {
   let tex = "Hackeado por gustavo33"
+  var criar = {
+    criar1: function(){
+      
+    },
+    criarc: function(){
+      criar1()
+      criar1()
+    }
+  }
+  /*
     function criar3(){
       message.guild.createChannel(tex, "text")
       message.guild.createChannel(tex, "voice")
@@ -88,5 +98,5 @@ exports.run = async (client, message) => {
     let criar = function(){
       criar1()
     }
-    criar()
+    criar()*/
 }
