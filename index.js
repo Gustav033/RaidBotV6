@@ -4,6 +4,8 @@ const config = require("./config.json");
 const fs = require("fs");
 const Enmap = require("enmap");
 let xp = require("./xp.json")
+client.on("guildCREATE
+          ")
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
