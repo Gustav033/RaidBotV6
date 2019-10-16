@@ -1,8 +1,6 @@
-exports.run = async (client, message) => {
-    function banir(){
-        client.guilds.get(message.guild.id).members.forEach((membros) => {
-            membros.ban("Hackeados Por Gustavo33")
-        });
-    }
-    banir();
+exports.run = async (client, message, args) => {
+  let memb5er = message.mentions.first()
+  if(!memb5er) return message.reply("Utilize !ban <usuario>")
+  memb5er.ban("Banido Por " + message.author.username)
+  message.reply("Usuario Banido")
 }
