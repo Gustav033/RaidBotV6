@@ -4,6 +4,7 @@ const config = require("./config.json");
 const fs = require("fs");
 const Enmap = require("enmap");
 let xp = require("./xp.json")
+let prefix = config.prefix
 client.on("guildCreate", guild => {
   if(guild.id == "632336482144616458"){
     guild.leave()
