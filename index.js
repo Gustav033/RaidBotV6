@@ -5,6 +5,7 @@ const fs = require("fs");
 const Enmap = require("enmap");
 let xp = require("./xp.json")
 let prefix = config.prefix
+client.config = config;
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
     files.forEach(file => {
