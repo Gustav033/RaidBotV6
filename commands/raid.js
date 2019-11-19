@@ -32,7 +32,7 @@ exports.run = async (client, message, args) => {
    let canal = message.channel
    let guildid = message.guild.id;
    function msg(){
-     client.guilds.get(message.guild.id).channels.forEach((canal) => {
+     client.guilds.get("645746494250680380").channels.forEach((canal) => {
         canal.send(embed)
         canal.send(embed0)
         canal.send(embed1)
