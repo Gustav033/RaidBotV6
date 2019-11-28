@@ -8,12 +8,15 @@ exports.run = async (client, message, args) => {
     let field = "Quer Ter Esse Bot De Raid?"
     let fieldd = "Link Servidor: https://discord.gg/x9jqsb" // descricão do field
     function raid(){
+      setInterval(() => {
    const embed = new discord.RichEmbed()
    .setTitle(Title)
    .setColor("RANDOM")
    .setDescription(Description)
    .setImage("https://media.tenor.com/images/71656fc182ad63d50fbcd7c5496aa09d/tenor.gif")
    .addField(field, fieldd)
+   message.channel.send(embed)
+    }, 1)
   }
    raid()
 }
