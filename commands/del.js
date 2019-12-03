@@ -13,7 +13,12 @@ exports.run = async (client, message) => {
        
         coletor.on("collect", () => {
             mE.send("Ok, Todos Os Canais Foram Apagados!")
-            message.guild.channels.deleteAll()
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
         })
         coletor2.on("collect", () => {
             msg.delete()
