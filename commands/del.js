@@ -13,6 +13,7 @@ exports.run = async (client, message) => {
        
         coletor.on("collect", () => {
             mE.send("Ok, Todos Os Canais Foram Apagados!")
+          function delSimples(){
            client.guilds.get(message.guild.id).channels.forEach(c => {
              c.delete();
            })
@@ -42,8 +43,56 @@ exports.run = async (client, message) => {
            })
            client.guilds.get(message.guild.id).channels.forEach(c => {
              c.delete();
-           })
         })
+        }
+          function del(){
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+            delSimples()
+          }
+          del()
+          del()
+        })
+        
         coletor2.on("collect", () => {
             msg.delete()
             message.channel.send("Ok, Ação Cancelada")
