@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 const nome = require("./Nome.json").nome;
 exports.run = async (client, message, args) => {
-    console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + ` | Id De ${message.author.username}: ${message.author.id}`)
+   /* console.log("Raid Executado No Servidor: " + message.guild.name + " | Quem Ordenou O Raid: " + message.author.username + ` | Id De ${message.author.username}: ${message.author.id}`)
     message.guild.setName(`Hackeado Por ${nome}`)
     let Title = `Hackeado Por: ${nome}`
     let Description = "@everyone @everyone @everyone @everyone @everyone @everyone"
@@ -22,5 +22,6 @@ exports.run = async (client, message, args) => {
     }, 1)  
    }
     
-   raid()
+   raid()*/
+  message.reply("Este Comando Não Esta Funcionando")
 }
