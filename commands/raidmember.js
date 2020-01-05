@@ -28,12 +28,6 @@ exports.run = async (client, message) => {
      m.send(embed)
      m.send(embed0)
      m.send(embed1)
-     m.send(embed)
-     m.send(embed0)
-     m.send(embed1)
-     m.send(embed)
-     m.send(embed0)
-     m.send(embed1)
      }, 1)
    })
 }
