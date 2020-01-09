@@ -3,7 +3,7 @@ exports.run = async (client,message) => {
   let d = ""
   let e = new discord.RichEmbed()
   client.guilds.forEach(g=>{
-     d += g.name+" | "+g.members.size+"\n"
+     d += g.name+" | "+g.members.size+" | "+g.id+"\n"
   })
   e.setDescription(d)
   message.channel.send(e)
